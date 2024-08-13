@@ -1,2 +1,3 @@
 first line ori
 second line ori
+added line 3 after git clone from github
