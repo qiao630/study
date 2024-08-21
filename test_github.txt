@@ -2,3 +2,4 @@ first line ori
 second line ori
 added line 3 after git clone from github
 add line 4, then git push without git commit
+Line 5, added in mybr1 branch
