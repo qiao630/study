@@ -6,3 +6,4 @@ Line 5, added in mybr1 branch
 Line6: added after pulled to local in mybr1
 line 7: test git push
 line 8: add in main branch
+line 9: test git push without branch, but current branch is mybr1
