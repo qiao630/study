@@ -25,4 +25,4 @@ jobs:
         #env:
           #testsecret: ${{secrets.myrepsec}}
         #run: node helloworld.js "$testsecret"
-        run: node helloworld.js ${{secrets.myrepsec}}
+        run: node helloworld.js "${{secrets.myrepsec}}"
