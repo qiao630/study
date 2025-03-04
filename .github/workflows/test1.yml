@@ -22,6 +22,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: run js file
-        env:
-          testsecret: ${{secrets.myrepsec}}
-        run: node helloworld.js "$testsecret"
+        #env:
+          #testsecret: ${{secrets.myrepsec}}
+        #run: node helloworld.js "$testsecret"
+        run: node helloworld.js ${{secrets.myrepsec}}
